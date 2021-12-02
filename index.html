@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop</title>
+    <link rel="stylesheet" href="css/mc-calendar.min.css" /> 
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/choices.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body> 
+    <header class="header">
+        <div class="header__container">
+          <div class="header__burger">
+            <span></span>
+          </div>
+            <nav class="header__navigation">
+                <ul class="header__list">
+                  <li class="header__item"><a href="#home" class="header__link">Home</a></li>
+                  <li class="header__item"><a href="#about" class="header__link">About</a></li>
+                  <li class="header__item"><a href="#menu" class="header__link">Menu</a></li>
+                  <li class="header__item"><a href="#reservation" class="header__link">Reservation</a></li>
+                </ul>
+                <a class="header__logo" aria-label="Logo" href="#">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <ul class="header__list">
+                  <li class="header__item"><a href="#process" class="header__link">Process</a></li>
+                  <li class="header__item"><a href="#shop" class="header__link">Shop</a></li>
+                  <li class="header__item"><a href="#testimonial" class="header__link">Testimonial</a></li>
+                  <li class="header__item"><a href="#" class="header__link" aria-label="search"><img src="images/search.svg" alt=""></a></li>
+                  <li class="header__item"><a href="#" class="header__link" aria-label="cart"><img src="images/cart.svg" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero__inner">
+          <h1 class="hero__title">Enjoy Your Morning Coffee.</h1>
+          <p class="hero__text">The coofee is brewed by fist roasting the green coffee beans over hot coals in brazier. given to Opportunity</p>
+          <button class="hero__btn btn">Test Coffee</button>
+        </div>
+      </div>
+    </section>
+    <main class="main">
+       <section class="section process" id="process">
+        <div class="process__container container">
+          <h2 class="visually-hidden">Process</h2>
+          <ol class="process__items">
+            <li class="process__item">
+              <p class="process__text">Best Coffee Flavour</p>
+              <img src="images/process-item-1.jpg" alt="" class="process__img">
+            </li>
+            <li class="process__item">
+              <p class="process__text">Place to get lost</p>
+              <img src="images/process-item-2.jpg" alt="" class="process__img">
+            </li>
+            <li class="process__item">
+              <p class="process__text">Proper roesting</p>
+              <img src="images/process-item-3.jpg" alt="" class="process__img">
+            </li>
+          </ol>
+        </div>
+       </section>
+       <section class="section history" id="about">
+         <div class="container">
+           <div class="history__inner">
+             <div class="history__imgs">
+               <img src="images/history-item-1.jpg" alt="" class="history__img">
+               <img src="images/history-item-2.jpg" alt="" class="history__img">
+               <img src="images/history-item-3.jpg" alt="" class="history__img history__img--column">
+             
+              </div>
+              <div class="history__content">
+                <p class="subtitle history__subtitle">Our history</p>
+                <h2 class="title history__title">Create a new story with us</h2>
+                <p class="text history__text">mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nibh maximus, est eu, mattis nuce. preasent ut quam quis quam venen atis fringilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.</p>
+              </div>
+           </div>
+         </div>
+       </section>
+       <section class="section product" id="shop">
+         <div class="container">
+           <div class="subtitle">Popular Product</div>
+           <div class="title product__title">Coffee popular Product</div>
+           <ul class="product__list">
+             <li class="product__item">
+              <img src="images/product-item-1.jpg" alt="">
+              <div class="product__inner">
+                <div class="product__rating">
+                  Coffee 
+                  <img src="images/rating.svg" alt="">
+                </div>
+                <a href="#" class="product__caption">brazil coffee gred</a>
+                <div class="product__price">Price - <span>$320.00</span>/ $358</div>
+                <button class="btn product__btn">Add to cart</button>
+              </div>
+             </li>
+             <li class="product__item">
+              <img src="images/product-item-1.jpg" alt="">
+              <div class="product__inner">
+                <div class="product__rating">
+                  Coffee 
+                  <img src="images/rating.svg" alt="">
+                </div>
+                <a href="#" class="product__caption">brazil coffee gred</a>
+                <div class="product__price">Price - <span>$320.00</span>/ $358</div>
+                <button class="btn product__btn">Add to cart</button>
+              </div>
+             </li>
+             <li class="product__item">
+              <img src="images/product-item-1.jpg" alt="">
+              <div class="product__inner">
+                <div class="product__rating">
+                  Coffee 
+                  <img src="images/rating.svg" alt="">
+                </div>
+                <a href="#" class="product__caption">brazil coffee gred</a>
+                <div class="product__price">Price - <span>$320.00</span>/ $358</div>
+                <button class="btn product__btn">Add to cart</button>
+              </div>
+             </li>
+           </ul>
+           <button class="btn product__button">View all product</button>
+         </div>
+       </section>
+       <section class="section machine">
+         <div class="container machine__container">
+          <img src="images/machine.png" alt="">
+          <div class="machine__content">
+            <h2 class="title machine__title">Coffee machine, buy for home</h2>
+            <p class="text machine__text">mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula
+              volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nib
+               maximus, est eu, mattis nuce. preasent ut quam quis quam venen atis fri
+              ngilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.</p>
+            <button class="btn machine__btn">Discover now</button>
+          </div>
+         </div>
+       </section>
+       <section class="section menu" id="menu">
+         <div class="container">
+           <p class="subtitle">Menu</p>
+           <h2 class="title menu__title">Coffee popular menu</h2>
+           <ul class="menu__list">
+             <li class="menu__item">
+               <img src="images/menu-item-1.jpg" alt="" class="menu__img">
+               <div class="menu__content">
+                 <div class="menu__name">Americano rosted gred</div>
+                 <div class="menu__price">$12:00</div>
+               </div>
+             </li>
+             <li class="menu__item">
+              <img src="images/menu-item-2.jpg" alt="" class="menu__img">
+              <div class="menu__content">
+                <div class="menu__name">Americano rosted gred</div>
+                <div class="menu__price">$12:00</div>
+              </div>
+            </li>
+            <li class="menu__item">
+              <img src="images/menu-item-3.jpg" alt="" class="menu__img">
+              <div class="menu__content">
+                <div class="menu__name">Americano rosted gred</div>
+                <div class="menu__price">$12:00</div>
+              </div>
+            </li> 
+            <li class="menu__item">
+              <img src="images/menu-item-4.jpg" alt="" class="menu__img">
+              <div class="menu__content">
+                <div class="menu__name">Americano rosted gred</div>
+                <div class="menu__price">$12:00</div>
+              </div>
+            </li>
+            <li class="menu__item">
+              <img src="images/menu-item-5.jpg" alt="" class="menu__img">
+              <div class="menu__content">
+                <div class="menu__name">Americano rosted gred</div>
+                <div class="menu__price">$12:00</div>
+              </div>
+            </li>
+            <li class="menu__item">
+             <img src="images/menu-item-6.jpg" alt="" class="menu__img">
+             <div class="menu__content">
+               <div class="menu__name">Americano rosted gred</div>
+               <div class="menu__price">$12:00</div>
+             </div>
+           </li>
+           <li class="menu__item">
+             <img src="images/menu-item-7.jpg" alt="" class="menu__img">
+             <div class="menu__content">
+               <div class="menu__name">Americano rosted gred</div>
+               <div class="menu__price">$12:00</div>
+             </div>
+           </li> 
+           <li class="menu__item">
+             <img src="images/menu-item-8.jpg" alt="" class="menu__img">
+             <div class="menu__content">
+               <div class="menu__name">Americano rosted gred</div>
+               <div class="menu__price">$12:00</div>
+             </div>
+           </li>
+           </ul>
+         </div>
+       </section>
+       <section class="section testimonial" id="testimonial">
+         <div class="container">
+           <p class="subtitle">Testimonial</p>
+           <h2 class="title testimonial__title">Says our customers</h2>
+          <div class="swiper my-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide ">
+                <div class="testimonial__top">
+                  <img src="images/testimonial-item-1.jpg" alt="">
+                  <p class="text testimonial__text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                </div>
+                <div class="testimonial__bottom">
+                  <div class="testimonial__info">
+                    <div class="testimonial__name">John Smith</div>
+                    <div class="testimonial__profession">Product Designer</div>
+                  </div>
+                  <img src="images/rating.svg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial__top">
+                  <img src="images/testimonial-item-2.jpg" alt="">
+                  <p class="text testimonial__text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                </div>
+                <div class="testimonial__bottom">
+                  <div class="testimonial__info">
+                    <div class="testimonial__name">Brett Lee</div>
+                    <div class="testimonial__profession">User Experience Designer</div>
+                  </div>
+                  <img src="images/rating.svg" alt="">
+                </div>
+              </div> 
+              <div class="swiper-slide ">
+                <div class="testimonial__top">
+                  <img src="images/testimonial-item-1.jpg" alt="">
+                  <p class="text testimonial__text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                </div>
+                <div class="testimonial__bottom">
+                  <div class="testimonial__info">
+                    <div class="testimonial__name">John Smith</div>
+                    <div class="testimonial__profession">Product Designer</div>
+                  </div>
+                  <img src="images/rating.svg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial__top">
+                  <img src="images/testimonial-item-2.jpg" alt="">
+                  <p class="text testimonial__text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                </div>
+                <div class="testimonial__bottom">
+                  <div class="testimonial__info">
+                    <div class="testimonial__name">Brett Lee</div>
+                    <div class="testimonial__profession">User Experience Designer</div>
+                  </div>
+                  <img src="images/rating.svg" alt="">
+                </div>
+              </div> 
+              <div class="swiper-slide ">
+                <div class="testimonial__top">
+                  <img src="images/testimonial-item-1.jpg" alt="">
+                  <p class="text testimonial__text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                </div>
+                <div class="testimonial__bottom">
+                  <div class="testimonial__info">
+                    <div class="testimonial__name">John Smith</div>
+                    <div class="testimonial__profession">Product Designer</div>
+                  </div>
+                  <img src="images/rating.svg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial__top">
+                  <img src="images/testimonial-item-2.jpg" alt="">
+                  <p class="text testimonial__text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                </div>
+                <div class="testimonial__bottom">
+                  <div class="testimonial__info">
+                    <div class="testimonial__name">Brett Lee</div>
+                    <div class="testimonial__profession">User Experience Designer</div>
+                  </div>
+                  <img src="images/rating.svg" alt="">
+                </div>
+              </div> 
+              <div class="swiper-slide ">
+                <div class="testimonial__top">
+                  <img src="images/testimonial-item-1.jpg" alt="">
+                  <p class="text testimonial__text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                </div>
+                <div class="testimonial__bottom">
+                  <div class="testimonial__info">
+                    <div class="testimonial__name">John Smith</div>
+                    <div class="testimonial__profession">Product Designer</div>
+                  </div>
+                  <img src="images/rating.svg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial__top">
+                  <img src="images/testimonial-item-2.jpg" alt="">
+                  <p class="text testimonial__text">Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..</p>
+                </div>
+                <div class="testimonial__bottom">
+                  <div class="testimonial__info">
+                    <div class="testimonial__name">Brett Lee</div>
+                    <div class="testimonial__profession">User Experience Designer</div>
+                  </div>
+                  <img src="images/rating.svg" alt="">
+                </div>
+              </div> 
+            </div>
+            <div class="swiper__bottom">
+              <div class="swiper__pagination">
+                <div class="swiper-fraction"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="swiper__btns">
+                <div class="swiper-prev swiper__btn "></div>
+                <div class="swiper-next swiper__btn "></div>
+              </div>
+            </div>
+            
+          
+          </div>
+         </div>
+       </section>
+       <section class="section reservation" id="reservation">
+         <div class="container">
+           <div class="reservation__inner">
+             <div class="reservation__map" id="map"></div>
+             <div class="reservation__content">
+               <p class="subtitle">Reservation</p>
+               <h2 class="reservation__title title">Booking a table</h2>
+               <select name="Person" class="person" aria-label="Select count">
+                 <option value="" disabled selected >quantity of people</option>
+                 <option value="1">1 Person</option>
+                 <option value="2">2 Person</option>
+                 <option value="3">3 Person</option>
+                 <option value="4">4 Person</option>
+                 <option value="5">5 Person</option>
+                 <option value="6">6 Person</option>
+                 <option value="7">7 Person</option>
+                 <option value="8">8 Person</option>
+                 <option value="9">9 Person</option>
+
+               </select>
+               <input placeholder="Date" class="reservation__input" id="example" type="text" />
+               <select name="Time" class="time" aria-label="Select time">
+                <option value="" disabled selected>Time</option>
+                <option value="Мужской">11 am</option>
+                <option value="Женский">Женский</option>
+              </select>
+              <button class="btn reservation__btn">BOOK S TABLE</button>
+             </div>
+
+           </div>
+         </div>
+       </section>
+    </main> 
+
+    <footer class="footer">
+      e-Tennis © 2021. All rights reserved.
+    </footer>
+    
+    <script src="js/mc-calendar.min.js"></script>
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js" ></script>
+<script src="js/choices.min.js"></script>
+    <script src="js/main.js" ></script>
+
+    <script
+    async  
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3oOC7d6KE3itQxDNe2ta09nlS1xpL3xE&callback=initMap&v=weekly"
+  ></script>
+</body>
+</html>
